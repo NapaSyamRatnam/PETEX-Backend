@@ -1,0 +1,22 @@
+server:
+  error:
+    whitelabel:
+      enabled: false
+  port: 9006
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: Rajesh@6301259439
+    url: jdbc:mysql://localhost:3306/PetexProject
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    open-in-view: false
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
+    show-sql: true
+    
+    
+ 

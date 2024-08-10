@@ -1,0 +1,24 @@
+server:
+  port: 9025
+spring:
+  application:
+    name: petexVendorItems
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: Rajesh@6301259439
+    url: jdbc:mysql://localhost:3306/PetexProject
+    username: root
+  jpa:
+    database: mysql
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
+    show-sql: true
+  servlet:
+    multipart:
+      max-file-size: 1GB
+      max-request-size: 1GB
+
+      

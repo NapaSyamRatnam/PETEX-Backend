@@ -1,0 +1,22 @@
+server:
+  port: 2003
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: Rajesh@6301259439
+    url: jdbc:mysql://localhost:3306/petexproject
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
+    show-sql: true
+  mvc:
+    dispatch-options-request: true
+    spring:
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 100MB
